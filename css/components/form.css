@@ -37,6 +37,32 @@
   border: 1px solid grey;
 }
 
+.search {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 33px;
+  transform: translateY(-50%);
+}
+
+.flip-icon ~ .form-input {
+  padding-left: 66px;
+}
+
+.icon-size {
+  height: 25px;
+  width: auto;
+}
+
+.section-contact .form-input {
+  padding-left: 55px;
+  font-size: 22px;
+}
+
 @media screen and (min-width: 480px) {
   .form-title {
     padding: 0;
@@ -51,7 +77,6 @@
   }
 
   .section-contact .form-input {
-    padding: 5px 10px;
     font-size: 24px;
   }
 
@@ -93,8 +118,13 @@
     padding: 0 18px;
   }
 
- .hero .form-input, .section-contact .form-input {
+ .hero .form-input {
     padding: 13px 10px;
     font-size: 22px;
+  }
+
+  .section-contact .form-input {
+    padding-top: 13px;;
+    padding-bottom: 13px;
   }
 }
