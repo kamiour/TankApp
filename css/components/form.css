@@ -45,7 +45,7 @@
   position: absolute;
   top: 50%;
   bottom: 50%;
-  left: 33px;
+  left: 40px;
   transform: translateY(-50%);
 }
 
@@ -59,7 +59,7 @@
 }
 
 .section-contact .form-input {
-  padding-left: 55px;
+  padding-left: 45px;
   font-size: 22px;
 }
 
@@ -78,6 +78,7 @@
 
   .section-contact .form-input {
     font-size: 24px;
+    padding-left: 50px;
   }
 
   .section-contact .form-control {
@@ -85,6 +86,10 @@
   }
   .section-contact .form-control > * {
     padding: 0 10px;
+  }
+
+  .search-icon {
+    left: 25px;
   }
 }
 
@@ -126,5 +131,9 @@
   .section-contact .form-input {
     padding-top: 13px;;
     padding-bottom: 13px;
+  }
+
+  .search-icon {
+    left: 35px;
   }
 }
