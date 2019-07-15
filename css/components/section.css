@@ -96,18 +96,17 @@
 	}
   
   .section-layout {
-    margin: 0 -15px;;
+    margin: 0 -15px;
   }
 
   .section-layout > * {
-    padding: 0 15px;;
+    padding: 0 15px;
   }
 
   .section-title {
     font-size: 34px;
     line-height: 44.42px;
-    margin-bottom: 36px;
-    text-align: left;
+    margin-bottom: 25px;
   }
 
   .col {
@@ -115,7 +114,7 @@
   }
 
   .section-features {
-    margin-bottom: 60px;
+    margin-bottom: 10px;
   }
 }
 
@@ -129,6 +128,6 @@
   }
 
   .section-features {
-    margin-bottom: 91px;
+    margin-bottom: 20px;
   }
 }

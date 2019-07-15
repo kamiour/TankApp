@@ -62,3 +62,39 @@
     padding: 0 10px;
   }
 }
+
+@media screen and (min-width: 640px) {
+  .form-title {
+    font-size: 18px;
+  }
+
+  .hero .form-control {
+    margin: 0 -5px;
+  }
+  .hero .form-control > * {
+    padding: 0 5px;
+  }
+
+  .hero .form-input {
+    padding: 6px 10px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .form-title {
+    font-size: 18px;
+  }
+
+  .hero .form-control {
+    margin: 0 -18px;
+  }
+  .hero .form-control > * {
+    padding: 0 18px;
+  }
+
+  .hero .form-input {
+    padding: 13px 10px;
+    font-size: 22px;
+  }
+}

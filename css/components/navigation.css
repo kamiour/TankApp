@@ -1,22 +1,26 @@
 .header-navigation {
   display: none;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
-  margin: 0 -15px;
+  margin: 0 -12px;
   align-items: center;
 }
 
+.header-navigation > * {
+  padding: 0 12px;
+}
+
 .nav-wrap {
-  padding: 0 15px;
   display: flex;
   align-items: center;
 }
   
 .nav-item {
-  padding: 15px 0;
+  padding: 10px 0;
   color: #6c6c6c;
   text-decoration: none;
+  text-transform: uppercase;
   line-height: 1;
 }
 
@@ -25,7 +29,7 @@
 }
 
 .isactive {
-  border-bottom: 3px solid #5094f2;
+  border-bottom: 2px solid #5094f2;
 }
 
 .isactive:hover {
@@ -54,6 +58,7 @@
   color: #fff;
   padding: 10px;
   text-decoration: none;
+  text-transform: uppercase;
   line-height: 1;
 }
 
@@ -82,6 +87,18 @@ ul li{
 
   .nav-mobile {
     display: none;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .nav-item {
+    font-size: 16px;
+  }
+  .header-navigation {
+    margin: 0 -15px;
+  }
+  .header-navigation > * {
+    padding: 0 15px;
   }
 }
 
