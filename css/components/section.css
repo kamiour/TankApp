@@ -3,10 +3,6 @@
   margin: 0;
 }
 
-.section-cart {
-  margin-top: 48px;
-}
-
 .section-layout {
   display: flex;
   flex-wrap: wrap;

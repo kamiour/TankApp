@@ -1,25 +1,13 @@
 .hero {
-  max-width: 1899px;
   margin: 0 auto;
   padding: 20px 0 0 0;
   background-image: linear-gradient(to bottom,#54a3da, #64a4d7);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: bottom;
   position: relative;
 }
 
 .swiper-wrapper {
   display: flex;
   align-items: center;
-}
-
-.swiper-button-next {
-  margin-right: 20px;
-}
-
-.swiper-button-prev {
-  margin-left: 20px;
 }
 
 .hero-layout {
