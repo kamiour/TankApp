@@ -47,21 +47,23 @@
   z-index: 100;
   top: 20px;
   right: 0;
-  padding: 10px 15px;
+  padding: 8px;
   margin: 0;
+  width: 135px;
 }
 
 .nav-item-mob{
   display: block;
   color: #fff;
-  padding: 10px;
+  padding: 8px;
   text-decoration: none;
   text-transform: uppercase;
-  line-height: 1;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
 .nav-item-mob:hover{
-  background-color: #d94748;
+  background-color: #ebbb11;
   text-decoration: none;
 }
 
@@ -76,6 +78,10 @@ ul li{
 .burger-button {
   display: flex;
   margin: 0;
+}
+
+.bg-green {
+  background-color: #77c344;
 }
 
 @media screen and (min-width: 640px) {

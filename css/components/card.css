@@ -6,7 +6,7 @@
   margin-bottom: 15px;
 }
 
-.section-features .card {
+.section-features .card-wrap {
   padding: 0 30px;
 }
 
@@ -97,7 +97,12 @@
   }
 
   .section-features .card {
+    margin: 0 -12px;
     margin-bottom: 10px;
+  }
+
+  .section-features .card > * {
+    padding: 0 12px;
   }
 }
 
