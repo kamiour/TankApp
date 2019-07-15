@@ -270,6 +270,15 @@
   .width-5-6-m {
     width: calc(100% * 5 / 6.001);
   }
+
+  .width-1-10-m {
+    width: 10%;
+  }
+
+  .width-9-10-m {
+    width: 90%;
+  }
+
   /* Pixel */
   .width-small-m {
     width: 150px;

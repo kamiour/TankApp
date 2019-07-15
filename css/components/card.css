@@ -97,18 +97,27 @@
   }
 
   .section-features .card {
-    margin: 0 -8px;
-  }
-
-  .section-features .card > * {
-    padding: 0 8px;
-  }
-
-  .section-features .card {
     margin-bottom: 10px;
   }
 }
 
 @media screen and (min-width: 960px) {
+  .card-title {
+    font-size: 28px;
+  }
   
+  .section-features .card-title {
+    text-align: left;
+    padding-left: 30px;
+    font-size: 22px;
+  }
+
+  .section-features .card-description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .section-features .features-img {
+    padding: 0;
+  }
 }

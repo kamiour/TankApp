@@ -86,14 +86,14 @@
     font-size: 18px;
   }
 
-  .hero .form-control {
+  .hero .form-control, .section-contact .form-control {
     margin: 0 -18px;
   }
-  .hero .form-control > * {
+  .hero .form-control > *, .section-contact .form-control > * {
     padding: 0 18px;
   }
 
-  .hero .form-input {
+ .hero .form-input, .section-contact .form-input {
     padding: 13px 10px;
     font-size: 22px;
   }

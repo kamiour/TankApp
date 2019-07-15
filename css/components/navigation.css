@@ -34,8 +34,6 @@
 
 .isactive:hover {
   color: #6c6c6c;
-  border-bottom: 3px solid #5094f2;
-  cursor: default;
 }
 
 .nav-mobile {
