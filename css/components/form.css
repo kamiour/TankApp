@@ -49,4 +49,16 @@
   .form-title {
     font-size: 14px;
   }
+
+  .section-contact .form-input {
+    padding: 5px 10px;
+    font-size: 24px;
+  }
+
+  .section-contact .form-control {
+    margin: 0 -10px;
+  }
+  .section-contact .form-control > * {
+    padding: 0 10px;
+  }
 }

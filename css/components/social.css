@@ -40,3 +40,13 @@
 .social-bg:hover {
   background-color: #77c344;
 }
+
+@media screen and (min-width: 480px) {
+  .icon-size-footer {
+    height: 20px;
+  }
+  .social-bg {
+    width: 40px;
+    height: 40px;
+  }
+}

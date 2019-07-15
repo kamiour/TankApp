@@ -12,34 +12,20 @@
 }
 
 .footer-left {
-padding: 20px 0;
+  padding: 20px 0;
 }
 
 .footer-right {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (min-width: 480px) {
-	.trademark {
-		font-size: 15px;
-		line-height: 20px;
-	}
-	
-	.footer {
-	  padding: 25px 0;
-	  margin-top: 30px;
-	}
+  .footer-left {
+    padding: 40px 0;
+  }
 }
 
 @media screen and (min-width: 640px) {
-	.trademark {
-	  font-size: 15px;
-	  line-height: 20px;
-  }
 
-  .footer {
-	  padding: 35px 0;
-	  margin-top: 46px;
-	}
 }
