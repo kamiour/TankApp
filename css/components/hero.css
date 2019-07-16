@@ -5,6 +5,52 @@
   position: relative;
 }
 
+.hero-clouds {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.hero-clouds .container {
+  position: relative;
+  height: 100%;
+}
+
+.hero-cloud {
+  position: absolute; 
+}
+
+.cloud-1 {
+  width: 50px;
+  top: 7%;
+  left: 10%;
+  opacity: 0.4;
+}
+
+.cloud-2 {
+  width: 65px;
+  top: 10%;
+  left: 53%;
+  opacity: 0.5;
+}
+
+.cloud-3 {
+  width: 60px;
+  top: 5%;
+  left: 90%;
+  opacity: 0.7;
+}
+
+.cloud-4 {
+  width: 35px;
+  top: 35%;
+  left: 92%;
+  opacity: 0.3;
+}
+
 .swiper-wrapper {
   display: flex;
   align-items: center;
@@ -111,6 +157,10 @@
     line-height: 28px;
     margin-bottom: 40px;
   }
+  
+  .hero-clouds {
+	display: block;
+  }
 }
 
 @media screen and (min-width: 960px) {
@@ -130,7 +180,7 @@
 
   .hero-description {
     font-size: 24px;
-    line-height: 47px;
+    line-height: 34px;
     margin-bottom: 40px;
   }
 }
