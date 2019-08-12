@@ -3,24 +3,12 @@
   padding: 20px 0 0 0;
   background-image: linear-gradient(to bottom,#54a3da, #64a4d7);
   position: relative;
-}
-
-.hero-clouds {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.hero-clouds .container {
-  position: relative;
-  height: 100%;
+  overflow: hidden;
 }
 
 .hero-cloud {
-  position: absolute; 
+  position: absolute;
+  z-index: 1;
 }
 
 .cloud-1 {
