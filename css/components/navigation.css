@@ -45,11 +45,12 @@
   list-style-type: none;
   position: absolute;
   z-index: 100;
-  top: 20px;
+  top: 100%;
   right: 0;
   padding: 8px;
   margin: 0;
   width: 135px;
+  border-radius: 5px;
 }
 
 .nav-item-mob{

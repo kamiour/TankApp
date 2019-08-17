@@ -7,6 +7,7 @@
 }
 
 .hero-cloud {
+  display: none;
   position: absolute;
   z-index: 1;
 }
@@ -37,6 +38,31 @@
   top: 35%;
   left: 92%;
   opacity: 0.3;
+}
+
+.vert-move-1 {
+  animation: mover 1s infinite  alternate;
+}
+
+.vert-move-2 {
+  animation: mover 2s infinite  alternate;
+}
+
+.vert-move-3 {
+  animation: mover 1.5s infinite  alternate;
+}
+
+.vert-move-4 {
+  animation: mover 1.2s infinite  alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 .swiper-wrapper {
@@ -146,8 +172,8 @@
     margin-bottom: 40px;
   }
   
-  .hero-clouds {
-	display: block;
+  .hero-cloud {
+    display: block;
   }
 }
 

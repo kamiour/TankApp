@@ -25,29 +25,29 @@
           <div class="header-right">
             <nav class="header-navigation">
               <div class="nav-wrap">
-                <a href="#howitworks" class="nav-item isactive">How it works</a>
+                <a href="#section-1" class="nav-item">Partners</a>
               </div>
               <div class="nav-wrap">
-                <a href="#about" class="nav-item">About us</a>
+                <a href="#section-2" class="nav-item">About us</a>
               </div>
               <div class="nav-wrap">
-                <a href="#contact" class="nav-item">Contact us</a>
+                <a href="#section-3" class="nav-item">Features</a>
               </div>
               <div class="nav-wrap">
-                <a href="#blog" class="nav-item">Blog</a>
+                <a href="#section-4" class="nav-item">Contact</a>
               </div>
             </nav>
             <div class="nav-mobile">
-              <a class="burger-menu" href="#menu">
+              <a class="dropdown-toggle burger-menu" href="#menu">
                 <figure class="burger-button">
                   <img class="img" src="images/icons/menu.svg" alt="not found">
                 </figure>
               </a>  
-              <ul class="bg-green">
-                <li><a href="#howitworks" class="nav-item-mob">How it works</a></li>
-                <li><a href="#about" class="nav-item-mob">About us</a></li>
-                <li><a href="#contact" class="nav-item-mob">Contact us</a></li>
-                <li><a href="#blog" class="nav-item-mob">Blog</a></li>
+              <ul class="dropdown bg-green">
+                <li><a href="#section-1" class="nav-item-mob">Partners</a></li>
+                <li><a href="#section-2" class="nav-item-mob">About us</a></li>
+                <li><a href="#section-3" class="nav-item-mob">Features</a></li>
+                <li><a href="#section-4" class="nav-item-mob">Contact</a></li>
               </ul> 
 			      </div>
           </div>
@@ -85,22 +85,22 @@
               </figure>
             </div>
           </div>
-          <figure class="hero-cloud cloud-1">
+          <figure class="hero-cloud cloud-1 vert-move-1">
             <img class="img" src="images/icons/cloud-hero.svg" alt="not found">
           </figure>
-          <figure class="hero-cloud cloud-2">
+          <figure class="hero-cloud cloud-2 vert-move-2">
             <img class="img" src="images/icons/cloud-hero.svg" alt="not found">
           </figure>
-          <figure class="hero-cloud cloud-3">
+          <figure class="hero-cloud cloud-3 vert-move-3">
             <img class="img" src="images/icons/cloud-hero.svg" alt="not found">
           </figure>
-          <figure class="hero-cloud cloud-4">
+          <figure class="hero-cloud cloud-4 vert-move-4">
             <img class="img" src="images/icons/cloud-hero.svg" alt="not found">
           </figure>
         </div> 
       </section>
 
-      <section class="section section-partners section-grey">
+      <section id="section-1" class="section section-partners section-grey">
         <div class="container">
           <ul class="list-partners">
             <li class="width-1-3 width-1-4-s width-1-5-sm"><img class="partners-img" src="images/partners/evernote.png" alt="not found"></li>
@@ -112,7 +112,7 @@
         </div>  
       </section>
 
-      <section class="section section-features">
+      <section id="section-2" class="section section-features">
           <div class="container">
             <h2 class="section-title">Why Tank App?</h2>
             <div class="section-layout">
@@ -205,7 +205,7 @@
           </div>
         </section>
 
-        <section class="section section-slider section-grey">
+        <section id="section-3" class="section section-slider section-grey">
 
           <!-- Add Arrows: Removed for now as autoplay is enabled -->
           <!--
@@ -277,7 +277,7 @@
           </div>
         </section>
 
-        <section class="section section-contact">
+        <section id="section-4" class="section section-contact">
           <div class="container">
             <h2 class="section-title">SAVE TIME & GAIN AGILITY</h2>
             <h3 class="section-description">Using our cloud Monitoring Services So you can Focous on Runing Yours Better</h3>
@@ -320,11 +320,10 @@
       </div>
     </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
-      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/components/swiper.min.js"></script>
+    <script src="js/components/nav-item.js"></script>
+    <script src="js/components/dropdown.js"></script>
     <script src="js/main.js"></script>
   </body>
 
