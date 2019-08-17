@@ -1,10 +1,14 @@
 .header-navigation {
   display: none;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-size: 16px;
   font-weight: 600;
   margin: 0 -12px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header-navigation > * {
@@ -12,8 +16,12 @@
 }
 
 .nav-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
   
 .nav-item {
@@ -77,6 +85,8 @@ ul li{
 }
 
 .burger-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
 }
@@ -87,6 +97,8 @@ ul li{
 
 @media screen and (min-width: 640px) {
   .header-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
@@ -106,4 +118,3 @@ ul li{
     padding: 0 15px;
   }
 }
-
